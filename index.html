@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <script async  src="js/form.js"></script>
 </head>
 <body>
     <div id="contenedor">
@@ -14,42 +15,43 @@
         <ul id="lista">
             <li>
                 <label>Nombre: </label>
-                <input type="text" placeholder="Nombre" name="nombre" required>
+                <input type="text" placeholder="Nombre" name="nombre" id="nombre" required>
             </li>
             <li>
                 <label>Apellidos: </label>
-                <input type="text" placeholder="Apellidos" name="apes" required>
+                <input type="text" placeholder="Apellidos" name="apes" id="apes" required>
             </li>
             <li>
                 <label>E-mail: </label>
-                <input type="email" placeholder="E-mail" name="email" required>
+                <input type="email" placeholder="E-mail" name="email" id="mail" required>
             </li>
             <li>
                 <label>Telefono: </label>
-                <input type="tel" placeholder="Telefono" name="tel" required>
+                <input type="tel" placeholder="Telefono" name="tel"  id="tel" required>
             </li>
             <li>
                 <label>DNI: </label>
-                <input type="text" placeholder="DNI" name="dni" required>
+                <input type="text" placeholder="DNI" name="dni" id="dni" required>
             </li>
             <li>
                 <label>IBAN: </label>
-                <input type="text" placeholder="IBAN" name="iban" required>
+                <input type="text" placeholder="IBAN" name="iban" id="iban" required>
             </li>
             <li>
                 <label>Swift</label>
-                <input type="text" placeholder="Swift" name="swift" required>
+                <input type="text" placeholder="Swift" name="swift" id="swift" required>
             </li>
             <li>
                 <label>Usuario</label>
-                <input type="text" placeholder="Usuario" name="user" required>
+                <input type="text" placeholder="Usuario" name="user" id="user" required>
             </li>
             <li>
                 <label>Fecha de Nacimiento</label>
-                <input type="date" placeholder="Fecha" name="fecha" required>
+                <input type="date" placeholder="Fecha" name="fecha" id="fecha" required>
             </li>
             <li>
                 <button type="submit" id="enviar">Validar</button>
+                <button type="button" id="limpiar">Vaciar</button>
             </li>
         </ul>
     </form>
